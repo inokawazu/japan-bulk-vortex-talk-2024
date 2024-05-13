@@ -1,6 +1,6 @@
 .PHONY: build
 
-build: presentation.html presentation.pdf presentation.pptx
+build: presentation.html presentation.pdf
 
 presentation.pdf: presentation.md presentation_metadata.yaml
 	pandoc --standalone -t beamer --slide-level=2 --metadata-file=presentation_metadata.yaml -o presentation.pdf presentation.md
@@ -12,5 +12,4 @@ presentation.pptx: presentation.md presentation_metadata.yaml
 	pandoc --standalone --slide-level=2 --metadata-file=presentation_metadata.yaml -o presentation.pptx presentation.md
 
 clean:
-	rm -f presentation.pdf
-	rm -f presentation.html
+	rm -f presentation.pdf presentation.html presentation.pptx
