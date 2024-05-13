@@ -1,0 +1,11 @@
+title: Holographic Global Vortices with Novel Boundary Conditions
+author: Markus Amano
+subtitle: in collaboration with Eto Minoru
+abstract: |
+    The AdS/CFT correspondence has significantly impacted the study of strongly coupled systems, providing insights into various condensed matter phenomena through its holographic duality. 
+    This paper introduces an alternative approach to the breaking of the global $U(1)$ symmetry in the bulk in two asymptotically AdS spacetimes: AdS plus hard wall and AdS Blackbrane. 
+    We explore a $(3+1)$-dimensional bulk $U(1)$ symmetry-breaking phase vacuum within a global $U(1)$ $\phi^4$ field theory, without the gauge field present in prior models. 
+    We find the symmetry-breaking vacuum requires that the mass squared is proportional to the quartic coupling. 
+    We also investigate numerical solutions of topologically stable vortex strings extending into the bulk.
+    We find evidence that the full UV expansion is dual to a point-like boundary excitation.
+toc: true
