@@ -68,7 +68,7 @@ $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$
 
 **Found single, static numerical solution**
 
-- has the form $\phi = f(r, z) e^{i\theta}$
+- has the form $\phi = g(r, z) e^{ik\theta}$
 - constant $z$ slices are vorticies with a coupling $\propto \lambda/z^2$
     - or $R_{\text{vortex}} \propto z/\sqrt\lambda$
 - is singular at the boundary
@@ -139,16 +139,18 @@ $\eta$ is a massless scalar field
 
 - Leading order solution is constant order
 
-<!-- TODO: start from here 2024年  5月 14日 -->
-
 ## Single Bulk Vortex Solution
 
-**Found single, static numerical solution**
+Using the ansatz, $\phi = g(r, z) e^{ik\theta}$
 
-- has the form $\phi = f(r, z) e^{i\theta}$
-- constant $z$ slices are vorticies with a coupling $\propto \lambda/z^2$
-    - or $R_{\text{vortex}} \propto z/\sqrt\lambda$
-- is singular at the boundary
+**Scalar equation of motion**
+$$
+  z^4 \partial_ z\left(\frac{f}{z^2}\partial_ z g\right)
+  +\frac { z^2 }{r} \partial_ r\left(r\partial_ r g\right)
+  -\frac {z^2}{r^2} k^2 g
+  - \lambda \left( g^2 - 1\right) g 
+  = 0
+$$
 
 ## Radius Plots (Hard Wall)
 
@@ -160,13 +162,37 @@ $\eta$ is a massless scalar field
 
 ## Vortex String Approximation
 
-**Studied vortex string approximation as pairs of vortices**
+At large lenght scales we approxiate vortex solutions as 
 
-- between vortex-vortex (and vortex-antivortex) configurations
-- radial profile must obey Neumann boundary conditions
-- singular at the boundary
-- found flat radial profiles for large separation distance
-- found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV
+$$ \phi_i = e^{ \pm i \Theta_i} $$
+
+where $\Theta$ is the angle measured on some constant $z$ plane with respect to a point ($x_i(z)$, $y_i(z)$).
+
+With planar symmetry vortex pair seperated by ($2R$) $\phi\equiv\phi_{ 12 }$can be written as
+
+\begin{align*}
+  \phi_{ 12 } &:= \exp(i(\Theta_1 + s\Theta_2))\\
+  \tan( \Theta_1 ) &:= \frac{y}{x - R(z)}\\
+  \tan( \Theta_2 ) &:= \frac{y}{x + R(z)}
+\end{align*}
+
+  <!-- \Theta_{12} &:= \Theta_1 + s\Theta_2\\ -->
+
+<!-- TODO: start from here -->
+
+## Vortex String Approximation (Interaction Energy)
+
+The interaction energy of the two vortex strings
+: $$ \varepsilon := - (S(\phi = \phi_{12}) - S(\phi_2) - S(\phi_1)) $$
+
+
+<!-- **Studied vortex string approximation as pairs of vortices** -->
+
+<!-- - between vortex-vortex (and vortex-antivortex) configurations -->
+<!-- - radial profile must obey Neumann boundary conditions -->
+<!-- - singular at the boundary -->
+<!-- - found flat radial profiles for large separation distance -->
+<!-- - found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV -->
 
 ## Vortex String Approximation (Numerics)
 
@@ -175,5 +201,5 @@ $\eta$ is a massless scalar field
 - Interaction energy vs seperation distance
 - Found minimum temperature for given seperation distance
 
-
 # Conclusion
+
