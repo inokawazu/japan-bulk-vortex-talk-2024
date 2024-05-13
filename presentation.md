@@ -90,14 +90,90 @@ $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$
 - Interaction energy vs seperation distance
 - Found minimum temperature for given seperation distance
 
-# Theory
-
-# Methods
-
 # Results in Detail
 
-## Radius Plots
+## Theory and Background Geometry
 
-![1/2 Vortex Radius vs z in AdS + Black Brane](figs/single_vortex_cone_ads_plus_hw.png "Hard Wall Black Brane"){ height=50% .center }
+**Action**
+$$S = - \int \sqrt{-g} \left(g^{\mu\nu}\left(\partial_{\mu}\right)\left(\partial_{\nu}\phi\right)^\star + \frac \lambda2 \left( |\phi|^2 + \frac{m^2}{\lambda} \right)^2 \right)$$
+
+**Metric**
+$$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$$
+
+Black Brane
+: $f(z) = 1 - z^3/z_h^3$
+
+Hard Wall
+: $f(z) = 1$
+
+## Equations of motion for Scalar
+
+**Equation of Motion**
+$$ -\frac 1{\sqrt{-g}} \partial_\mu \left(g^{\mu\nu} \sqrt{-g} \partial_\nu\phi \right) + V'(|\phi|^2)\phi = 0 $$
+
+## Bulk Global U(1) Breaking Vacuum
+
+**Equation of Motion**
+$$ -\frac 1{\sqrt{-g}} \partial_\mu \left(g^{\mu\nu} \sqrt{-g} \partial_\nu\phi \right) + V'(|\phi|^2)\phi = 0 $$
+
+Near horizon expansion where $\phi \sim z^\beta$ implies that
+$$
+  \left(- \beta \left(\beta - 3\right) + m^2 L^{2}\right) z^\beta + L^{-2\beta}\lambda z^{ 3\beta } = 0
+$$
+
+1. $\beta = 0$ and $m^2 = -L^2 \lambda$ or
+2. $\beta > 0$
+
+So constant $|\phi|^2=1$ solutions are admitted
+
+## Bulk Global U(1) Breaking Vacuum - Perturbations
+
+Scalar Perturabtions
+: $\phi =  1 + v + i \eta$ assuming $|v|, |\eta| \ll 1$
+
+$v$ is a massive scalar field with $m^2 = 2\lambda$
+
+- Leading order diverges, so it must vanish to preserve assumption $|v| \ll 1$
+
+$\eta$ is a massless scalar field
+
+- Leading order solution is constant order
+
+<!-- TODO: start from here 2024年  5月 14日 -->
+
+## Single Bulk Vortex Solution
+
+**Found single, static numerical solution**
+
+- has the form $\phi = f(r, z) e^{i\theta}$
+- constant $z$ slices are vorticies with a coupling $\propto \lambda/z^2$
+    - or $R_{\text{vortex}} \propto z/\sqrt\lambda$
+- is singular at the boundary
+
+## Radius Plots (Hard Wall)
+
+![1/2 Vortex Radius vs z in AdS + Hard Wall](figs/single_vortex_cone_ads_plus_hw.png "Hard Wall"){ height=50% .center }
+
+## Radius Plots (Black Brane)
+
+![1/2 Vortex Radius vs z in AdS + Black Brane](figs/single_vortex_cone_black_brane.png "Black Brane"){ height=50% .center }
+
+## Vortex String Approximation
+
+**Studied vortex string approximation as pairs of vortices**
+
+- between vortex-vortex (and vortex-antivortex) configurations
+- radial profile must obey Neumann boundary conditions
+- singular at the boundary
+- found flat radial profiles for large separation distance
+- found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV
+
+## Vortex String Approximation (Numerics)
+
+**Numerically we found**
+
+- Interaction energy vs seperation distance
+- Found minimum temperature for given seperation distance
+
 
 # Conclusion
