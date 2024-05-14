@@ -160,15 +160,15 @@ $$
 
 ![1/2 Vortex Radius vs z in AdS + Black Brane](figs/single_vortex_cone_black_brane.png "Black Brane"){ height=50% .center }
 
-## Vortex String Approximation
+## Vortex String Approximation {#squeeze }
 
 At large lenght scales we approxiate vortex solutions as 
 
-$$ \phi_i = e^{ \pm i \Theta_i} $$
+$$\phi_i = e^{ \pm i \Theta_i} $$
 
 where $\Theta$ is the angle measured on some constant $z$ plane with respect to a point ($x_i(z)$, $y_i(z)$).
 
-With planar symmetry vortex pair seperated by ($2R$) $\phi\equiv\phi_{ 12 }$can be written as
+At $2R(0)$ separation at $z=0$, vortex string pair can be written as
 
 \begin{align*}
   \phi_{ 12 } &:= \exp(i(\Theta_1 + s\Theta_2))\\
@@ -176,22 +176,38 @@ With planar symmetry vortex pair seperated by ($2R$) $\phi\equiv\phi_{ 12 }$can 
   \tan( \Theta_2 ) &:= \frac{y}{x + R(z)}
 \end{align*}
 
-  <!-- \Theta_{12} &:= \Theta_1 + s\Theta_2\\ -->
-
-<!-- TODO: start from here -->
+$s = 1 \leftrightarrow$ vortex-vortex, $s = -1 \leftrightarrow$ vortex-antivortex  
 
 ## Vortex String Approximation (Interaction Energy)
+
+\begin{align*}
+  \phi_{ 12 } &:= \exp(i(\Theta_1 + s\Theta_2))\\
+  \phi_{ 1 } &:= \exp(i(\Theta_1))\\
+  \phi_{ 2 } &:= \exp(i(s\Theta_2))\\
+\end{align*}
 
 The interaction energy of the two vortex strings
 : $$ \varepsilon := - (S(\phi = \phi_{12}) - S(\phi_2) - S(\phi_1)) $$
 
+## Vortex String Approximation (Equation of Motion)
 
-<!-- **Studied vortex string approximation as pairs of vortices** -->
+- Extremizing the energy of $\varepsilon$ with Neumann boundary conditions ($R'(0,z_h) = 0$)
+- $R$ obeys second order non-linear ODE.
+  - solutions determined by $R(0)$ and $R^{(3)}(0)$
+- For found solution the interaction energy diverges so UV cutoff is imposed
 
-<!-- - between vortex-vortex (and vortex-antivortex) configurations -->
-<!-- - radial profile must obey Neumann boundary conditions -->
-<!-- - singular at the boundary -->
-<!-- - found flat radial profiles for large separation distance -->
+## Vortex String Approximation (Large R(0))
+
+For large $R(0)$ the $R(z)$ has an analytical solution
+
+\begin{equation*}
+  R(z) = C_1 \int_0^z\frac{y^2 dy}{f(y)}+R(0)
+\end{equation*}
+
+Boundary condition at $z = z_h$ requires $C_1 = 0$.
+
+<!-- TODO: start from here -->
+
 <!-- - found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV -->
 
 ## Vortex String Approximation (Numerics)
