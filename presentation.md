@@ -181,9 +181,9 @@ $s = 1 \leftrightarrow$ vortex-vortex, $s = -1 \leftrightarrow$ vortex-antivorte
 ## Vortex String Approximation (Interaction Energy)
 
 \begin{align*}
-  \phi_{ 12 } &:= \exp(i(\Theta_1 + s\Theta_2))\\
-  \phi_{ 1 } &:= \exp(i(\Theta_1))\\
-  \phi_{ 2 } &:= \exp(i(s\Theta_2))\\
+  \phi_{ 12 } &= \exp(i(\Theta_1 + s\Theta_2))\\
+  \phi_{ 1 } &= \exp(i(\Theta_1))\\
+  \phi_{ 2 } &= \exp(i(s\Theta_2))\\
 \end{align*}
 
 The interaction energy of the two vortex strings
@@ -206,9 +206,28 @@ For large $R(0)$ the $R(z)$ has an analytical solution
 
 Boundary condition at $z = z_h$ requires $C_1 = 0$.
 
-<!-- TODO: start from here -->
+## Vortex String Approximation (Sourcing the Boundary)
 
-<!-- - found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV -->
+  - treat $\phi_{ 12 } = \exp(i\Theta_{ 12 })$ as free massless scalar field}$
+
+
+  **Boundary Expansion**
+  \begin{align*}
+    \sim \phi_{(0)} e^{i \Theta_{12}(R(0))}
+      \big(1&+\frac{1}{2} i z^2 R^{(2)}(0) \Theta_{12}'(R(0)) \\
+      &+ C_1 \left\langle\mathcal{O}_\phi\right\rangle z^3
+      \big)+O(z^4)
+  \end{align*}
+
+  **VEV up to a constant**
+  $$
+    \left\langle\mathcal{O}_\phi\right\rangle \propto R^{(3)}(0) \Theta_{12}'(R(0))
+  $$
+  $$
+    = R^{(3)}(0)  \left( \frac{sy}{\left(y^2 + \left(x + R(0)\right)^2\right)} - \frac{y}{\left(y^2 + \left(x - R(0)\right)^2\right)} \right)
+  $$
+
+<!-- TODO: start from here -->
 
 ## Vortex String Approximation (Numerics)
 
