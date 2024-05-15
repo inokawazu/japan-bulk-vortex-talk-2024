@@ -269,3 +269,29 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$.
 <!-- TODO: start from here -->
 
 # Conclusion
+
+  1. bulk global $\phi^4$ $U(1)$ scalar plus Einstein gravity theory in AAdS spacetimes
+    - AdS plus hard wall
+    - AdS black brane.
+  1. Found Vacuum is linearly stable
+    - any massless perturbations
+    - sourceless massive perturbations
+  1. Numerically solved for the single scalar vortex case
+    - Singular at the boundary
+  1. Analyzed string vortices
+    - Flat at large distances
+    - Found evidence that it sources points on the boundary
+  1. For various $z_h$, $R(0)$, and $R^{(3)}(0)$
+    - surveyed numerical solutions of vortex string pairs
+
+## Outlook
+
+  1. Vortices that backreact onto the geometry (Gregory 2014, Dias 2013, Dehghani 2001) 
+  1. Explore non-abelian extension (Tallarita 2019)
+  1. Explore role as nucleation site of a phase transition (Dias 2013)
+
+## Acknowledgments
+
+- The work of Markus Amano is supported by the *Japan Society for the Promotion of Science Postdoctoral Fellowship for Research in Japan (Short-term)*.
+
+- This work was done in collaboration with Professor Minoru Eto with much appreciation and gratitude.
