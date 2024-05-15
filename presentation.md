@@ -227,14 +227,45 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$.
     = R^{(3)}(0)  \left( \frac{sy}{\left(y^2 + \left(x + R(0)\right)^2\right)} - \frac{y}{\left(y^2 + \left(x - R(0)\right)^2\right)} \right)
   $$
 
+## Vortex String Approximation (Interaction Energy)
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+  ![Black Brane Vortex-Vortex Potential](figs/black_pots.png "Black Brane Potential Graph"){ height=50% .center }
+:::
+::: {.column width="50%"}
+  ![Hard Wall Vortex-Vortex Potential](figs/hard_wall_pots.png "Hard Wall Potential Graph"){ height=50% .center }
+:::
+::::::::::::::
+
+- Vortex-vortex pairs repel and (vice versa Vortex-antivortex pairs attract)
+
+## Vortex String Approximation ($z_h$ vs $R(0)$)
+
+  - $z_h$ behavior ($R(0)$ and $R^{(3)}(0)$)
+  - Given $R(0)$ and $R^{(3)}(0)$, determine $z_h$ such that $R^{(1)}(z_h) = 0$
+
+  | Three Cases | |
+  | :-------------: | :-----------------------: |
+  | $R^{(3)}(0)  > \rho_+$ | $R$ diverges | 
+  | $R^{(3)}(0)  < -\rho_-$ | $R$ hits zero |
+  | $-\rho_- < R^{(3)}(0) < \rho_+$ | finite $z_h$ |
+
+  <!-- . --> 
+
+  ![Radial Profile Categories](figs/radial_profile_categories.png "Radial Profile Categories"){ height=33% .center }
+
+## Vortex String Approximation ($z_h$ vs $R(0)$)
+
+  - For $-\rho_- < R^{(3)}(0) < \rho_+$
+
+  ![Radial Profile Categories](figs/hard_wall_zh_vs_r0_r30zero.png "Radial Profile Categories"){ height=45% .center }
+
+  <!-- % -->
+
+  - For black brane case, $T\propto1/z_h$
+  - $\implies$ there is a $T_\mathrm{min}$
+
 <!-- TODO: start from here -->
 
-## Vortex String Approximation (Numerics)
-
-**Numerically we found**
-
-- Interaction energy vs seperation distance
-- Found minimum temperature for given seperation distance
-
 # Conclusion
-
