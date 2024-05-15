@@ -1,3 +1,13 @@
+<!--toc:start-->
+- [Background](#background)
+- [Motivation](#motivation)
+## Vortex String Approximation (Numerics)
+
+- [Summary of Results](#summary-of-results)
+- [Results in Detail](#results-in-detail)
+- [Conclusion](#conclusion)
+<!--toc:end-->
+
 # Background
 
 Anti-de Sitter/Conformal Field Theory (AdS/CFT) correspondence (Maldacena 1997)
@@ -14,22 +24,22 @@ AdS/CFT applied to condensed matter
 - superconductivity (Hartnoll 2008, Domenech 2010)
 - Aharonov-Bohm effect (Montull 2011)
 - Lifshitz scaling (Kachru 2008)
-- superfluidity and superconductivity (Hartnoll 2008, Hartnoll 2008)
+- superfluidity and superconductivity (Hartnoll 2008)
 
 ## Hologrpahic Superfluids and Superconductors
 
-Hartnoll et al. (Hartnoll 2008, Hartnoll 2008) found superconductivity in holography
+Hartnoll et al. (Hartnoll 2008): superconductivity in holography
 
-- $U(1)$ scalar field condensation associated with superconductivity
-- Superconductivity attained at a certain critical temperature
+- $U(1)$ scalar field condensation
+- critical temperature
 
 ## Vortices
 
 Canonical holographic superconductivity bulk theory
-: $(3+1)$-dimensional Abelian-Higgs model serves
+: $(3+1)$-dimensional Abelian-Higgs model
 
-- Much attention is drawn to understanding the holographic dual of Bose-Einstein Condensates (BECs).
-- Many papers found induced vorties on the dual boundary theory (Dias 2013, Albash 2009, Wittmer 2020, Wittmer 2021).
+- better understanding the Bose-Einstein Condensates (BECs) like systems at strong coupling
+- Many papers found induced vorties on the dual boundary theory (Albash 2009, Dias 2013, Wittmer 2020, Wittmer 2021).
 
 # Motivation
 
@@ -50,7 +60,6 @@ We wanted to know
 $$S = - \int \sqrt{-g} \left(g^{\mu\nu}\left(\partial_{\mu}\right)\left(\partial_{\nu}\phi\right)^\star + \frac \lambda2 \left( |\phi|^2 + \frac{m^2}{\lambda} \right)^2 \right)$$
 
 $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$$
-
 
 ## Bulk Global U(1) Breaking Vacuum
 
@@ -83,7 +92,7 @@ $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$
 - found flat radial profiles for large separation distance
 - found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV
 
-## Vortex String Approximation (Numerics)
+<!-- ----------------------------------------- -->
 
 **Numerically we found**
 
@@ -106,10 +115,10 @@ Black Brane
 Hard Wall
 : $f(z) = 1$
 
-## Equations of motion for Scalar
+<!-- ## Equations of motion for Scalar -->
 
-**Equation of Motion**
-$$ -\frac 1{\sqrt{-g}} \partial_\mu \left(g^{\mu\nu} \sqrt{-g} \partial_\nu\phi \right) + V'(|\phi|^2)\phi = 0 $$
+<!-- **Equation of Motion** -->
+<!-- $$ -\frac 1{\sqrt{-g}} \partial_\mu \left(g^{\mu\nu} \sqrt{-g} \partial_\nu\phi \right) + V'(|\phi|^2)\phi = 0 $$ -->
 
 ## Bulk Global U(1) Breaking Vacuum
 
@@ -204,7 +213,7 @@ For large $R(0)$ the $R(z)$ has an analytical solution
   R(z) = C_1 \int_0^z\frac{y^2 dy}{f(y)}+R(0)
 \end{equation*}
 
-Boundary condition at $z = z_h$ requires $C_1 = 0$.
+Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 
 ## Vortex String Approximation (Sourcing the Boundary)
 
@@ -238,26 +247,36 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$.
 :::
 ::::::::::::::
 
-- Vortex-vortex pairs repel and (vice versa Vortex-antivortex pairs attract)
+- Vortex-vortex pairs repel and (vice versa vortex-antivortex pairs attract)
 
 ## Vortex String Approximation ($z_h$ vs $R(0)$)
 
   - $z_h$ behavior ($R(0)$ and $R^{(3)}(0)$)
   - Given $R(0)$ and $R^{(3)}(0)$, determine $z_h$ such that $R^{(1)}(z_h) = 0$
 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
   | Three Cases | |
   | :-------------: | :-----------------------: |
   | $R^{(3)}(0)  > \rho_+$ | $R$ diverges | 
   | $R^{(3)}(0)  < -\rho_-$ | $R$ hits zero |
   | $-\rho_- < R^{(3)}(0) < \rho_+$ | finite $z_h$ |
-
   <!-- . --> 
 
-  ![Radial Profile Categories](figs/radial_profile_categories.png "Radial Profile Categories"){ height=33% .center }
+:::
+::: {.column width="50%"}
+
+  ![Radial Profile Categories](figs/radial_profile_categories.png "Radial Profile Categories"){ height=40% .center }
+
+:::
+::::::::::::::
 
 ## Vortex String Approximation ($z_h$ vs $R(0)$)
 
   - For $-\rho_- < R^{(3)}(0) < \rho_+$
+  <!-- % -->
 
   ![Radial Profile Categories](figs/hard_wall_zh_vs_r0_r30zero.png "Radial Profile Categories"){ height=45% .center }
 
@@ -271,18 +290,18 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$.
 # Conclusion
 
   1. bulk global $\phi^4$ $U(1)$ scalar plus Einstein gravity theory in AAdS spacetimes
-    - AdS plus hard wall
-    - AdS black brane.
+        <!-- - AdS plus hard wall -->
+        <!-- - AdS black brane. -->
   1. Found Vacuum is linearly stable
-    - any massless perturbations
-    - sourceless massive perturbations
+      - any massless perturbations
+      - sourceless massive perturbations
   1. Numerically solved for the single scalar vortex case
-    - Singular at the boundary
+      - Singular at the boundary
   1. Analyzed string vortices
-    - Flat at large distances
-    - Found evidence that it sources points on the boundary
+      - Flat at large distances
+      - Found evidence that it sources points on the boundary
   1. For various $z_h$, $R(0)$, and $R^{(3)}(0)$
-    - surveyed numerical solutions of vortex string pairs
+      - surveyed numerical solutions of vortex string pairs
 
 ## Outlook
 
@@ -290,8 +309,18 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$.
   1. Explore non-abelian extension (Tallarita 2019)
   1. Explore role as nucleation site of a phase transition (Dias 2013)
 
+
+:::::::::::::: {.columns}
+::: {.column width="33%"}
+:::
+::: {.column width="34%"}
+![](figs/business_ojigi_man.png){height=50%}
+:::
+::: {.column width="33%"}
+:::
+::::::::::::::
+
 ## Acknowledgments
 
 - The work of Markus Amano is supported by the *Japan Society for the Promotion of Science Postdoctoral Fellowship for Research in Japan (Short-term)*.
-
 - This work was done in collaboration with Professor Minoru Eto with much appreciation and gratitude.
