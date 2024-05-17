@@ -1,11 +1,3 @@
-<!--toc:start-->
-- [Background](#background)
-- [Motivation](#motivation)
-- [Summary of Results](#summary-of-results)
-- [Results in Detail](#results-in-detail)
-- [Conclusion](#conclusion)
-<!--toc:end-->
-
 # Background
 
 Anti-de Sitter/Conformal Field Theory (AdS/CFT) correspondence (Maldacena 1997)
