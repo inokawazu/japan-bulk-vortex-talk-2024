@@ -1,8 +1,6 @@
 <!--toc:start-->
 - [Background](#background)
 - [Motivation](#motivation)
-## Vortex String Approximation (Numerics)
-
 - [Summary of Results](#summary-of-results)
 - [Results in Detail](#results-in-detail)
 - [Conclusion](#conclusion)
@@ -25,13 +23,13 @@ AdS/CFT applied to condensed matter
 - Aharonov-Bohm effect (Montull 2011)
 - Lifshitz scaling (Kachru 2008)
 - superfluidity and superconductivity (Hartnoll 2008)
+        - $U(1)$ scalar field condensation
+        - critical temperature
 
-## Hologrpahic Superfluids and Superconductors
+<!-- ## Hologrpahic Superfluids and Superconductors -->
 
-Hartnoll et al. (Hartnoll 2008): superconductivity in holography
+<!-- Hartnoll et al. (Hartnoll 2008): superconductivity in holography -->
 
-- $U(1)$ scalar field condensation
-- critical temperature
 
 ## Vortices
 
@@ -82,7 +80,9 @@ $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$
     - or $R_{\text{vortex}} \propto z/\sqrt\lambda$
 - is singular at the boundary
 
-## Vortex String Approximation
+<!-- ## Vortex String Approximation -->
+
+------------------------------
 
 **Studied vortex string approximation as pairs of vortices**
 
@@ -161,13 +161,24 @@ $$
   = 0
 $$
 
-## Radius Plots (Hard Wall)
+<!-- ## Radius Plots (Hard Wall) -->
 
-![1/2 Vortex Radius vs z in AdS + Hard Wall](figs/single_vortex_cone_ads_plus_hw.png "Hard Wall"){ height=50% .center }
+## Radius Plots
 
-## Radius Plots (Black Brane)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+  <!-- ![](figs/single_vortex_cone_black_brane.png "Black Brane"){ height=50% .center } -->
+  ![1/2 Vortex Radius vs z in AdS Black Brane](figs/single_vortex_cone_black_brane.png "Black Brane"){ height=75% .center }
+:::
+::: {.column width="50%"}
+  ![](figs/single_vortex_cone_ads_plus_hw.png "Hard Wall"){ height=75% .center }
+  <!-- ![1/2 Vortex Radius vs z in Hard Wall AdS](figs/single_vortex_cone_ads_plus_hw.png "Hard Wall"){ height=50% .center } -->
 
-![1/2 Vortex Radius vs z in AdS + Black Brane](figs/single_vortex_cone_black_brane.png "Black Brane"){ height=50% .center }
+:::
+::::::::::::::
+
+<!-- ## Radius Plots (Black Brane) -->
+
 
 ## Vortex String Approximation {#squeeze }
 
@@ -309,6 +320,10 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
   1. Explore non-abelian extension (Tallarita 2019)
   1. Explore role as nucleation site of a phase transition (Dias 2013)
 
+## Acknowledgments
+
+- The work of Markus Amano is supported by the *Japan Society for the Promotion of Science Postdoctoral Fellowship for Research in Japan (Short-term)*.
+- This work was done in collaboration with Professor Minoru Eto with much appreciation and gratitude.
 
 :::::::::::::: {.columns}
 ::: {.column width="33%"}
@@ -320,7 +335,3 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 :::
 ::::::::::::::
 
-## Acknowledgments
-
-- The work of Markus Amano is supported by the *Japan Society for the Promotion of Science Postdoctoral Fellowship for Research in Japan (Short-term)*.
-- This work was done in collaboration with Professor Minoru Eto with much appreciation and gratitude.
