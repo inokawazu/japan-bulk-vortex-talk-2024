@@ -4,6 +4,7 @@ subtitle: in collaboration with Eto Minoru
 institute: Yamagata University
 theme: Boadilla
 aspectratio: 169
+toc: true
 abstract: |
     The AdS/CFT correspondence has significantly impacted the study of strongly coupled systems, providing insights into various condensed matter phenomena through its holographic duality. 
     This paper introduces an alternative approach to the breaking of the global $U(1)$ symmetry in the bulk in two asymptotically AdS spacetimes: AdS plus hard wall and AdS Blackbrane. 
