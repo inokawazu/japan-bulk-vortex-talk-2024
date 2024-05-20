@@ -3,6 +3,8 @@ author: Markus Amano
 subtitle: "in collaboration with Eto Minoru (arXiv: 2404.03212)"
 institute: Yamagata University
 theme: Boadilla
+header-includes: 
+    - \AtBeginDocument{\title[Holographic Global Vortices]{Holographic Global Vortices with Novel Boundary Conditions}}
 aspectratio: 169
 toc: true
 abstract: |
