@@ -173,11 +173,11 @@ $$
 <!-- ## Radius Plots (Black Brane) -->
 
 
-## Vortex String Approximation {#squeeze }
+## Vortex String Approximation {#squeeze}
 
 At large lenght scales we approxiate vortex solutions as 
 
-$$\phi_i = e^{ \pm i \Theta_i} $$
+$$\phi_i = e^{ \pm i \Theta_i}$$
 
 where $\Theta$ is the angle measured on some constant $z$ plane with respect to a point ($x_i(z)$, $y_i(z)$).
 
@@ -221,8 +221,7 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 
 ## Vortex String Approximation (Sourcing the Boundary)
 
-  - treat $\phi_{ 12 } = \exp(i\Theta_{ 12 })$ as free massless scalar field}$
-
+  - treat $\phi_{ 12 } = \exp(i\Theta_{ 12 })$ as free massless scalar field
 
   **Boundary Expansion**
   \begin{align*}
