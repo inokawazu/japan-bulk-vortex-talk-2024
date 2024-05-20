@@ -45,8 +45,8 @@ We wanted to know
 # Summary of Results
 
 - Analyzed a bulk, global $U(1)$ $\phi^4$ + $(3+1)$D AAnti-de Sitter (AdS) GR
-    - Hard Wall
-    - Black Brane
+    - AdS + Hard Wall
+    - AdS Black Brane
 
 $$S = - \int \sqrt{-g} \left(g^{\mu\nu}\left(\partial_{\mu}\right)\left(\partial_{\nu}\phi\right)^\star + \frac \lambda2 \left( |\phi|^2 + \frac{m^2}{\lambda} \right)^2 \right)$$
 
