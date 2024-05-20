@@ -15,8 +15,8 @@ AdS/CFT applied to condensed matter
 - Aharonov-Bohm effect (Montull 2011)
 - Lifshitz scaling (Kachru 2008)
 - superfluidity and superconductivity (Hartnoll 2008)
-        - $U(1)$ scalar field condensation
-        - critical temperature
+    - $U(1)$ scalar field condensation
+    - critical temperature
 
 <!-- ## Hologrpahic Superfluids and Superconductors -->
 
@@ -29,7 +29,8 @@ Canonical holographic superconductivity bulk theory
 : $(3+1)$-dimensional Abelian-Higgs model
 
 - better understanding the Bose-Einstein Condensates (BECs) like systems at strong coupling
-- Many papers found induced vorties on the dual boundary theory (Albash 2009, Dias 2013, Wittmer 2020, Wittmer 2021).
+- many papers found induced vorties on the dual boundary theory
+    - Albash 2009, Dias 2013, Wittmer 2020, Wittmer 2021
 
 # Motivation
 
@@ -53,7 +54,7 @@ $$g = \frac {L^2}{z^2} \left( -f(z) dt^2 + \frac 1{f(z)}dz^2 + \delta_2 \right)$
 
 ## Bulk Global U(1) Breaking Vacuum
 
-**Found that a $U(1)$, bulk breaking vacuum was allowed if**
+$U(1)$ bulk breaking vacuum:  **admitted was allowed if**
 
 - $\displaystyle \lim_{z\to 0}\phi \sim z^0$
 - $m^2 = -L^2 \lambda$
@@ -309,13 +310,21 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 ## Outlook
 
   1. Vortices that backreact onto the geometry (Gregory 2014, Dias 2013, Dehghani 2001) 
-  1. Explore non-abelian extension (Tallarita 2019)
   1. Explore role as nucleation site of a phase transition (Dias 2013)
 
 ## Acknowledgments
 
+
+:::::::::::::: {.columns}
+::: {.column width="10%"}
+:::
+::: {.column width="80%"}
 - The work of Markus Amano is supported by the *Japan Society for the Promotion of Science Postdoctoral Fellowship for Research in Japan (Short-term)*.
 - This work was done in collaboration with Professor Minoru Eto with much appreciation and gratitude.
+:::
+::: {.column width="10%"}
+:::
+::::::::::::::
 
 :::::::::::::: {.columns}
 ::: {.column width="33%"}
