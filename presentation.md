@@ -80,16 +80,16 @@ $U(1)$ bulk breaking vacuum:  **admitted was allowed if**
 **Studied vortex string approximation as pairs of vortices**
 
 - between vortex-vortex (and vortex-antivortex) configurations
-- radial profile must obey Neumann boundary conditions
+<!-- - radial profile must obey Neumann boundary conditions -->
 - singular at the boundary
-- found flat radial profiles for large separation distance
-- found evidence for $R^{(3)}(0)$ is proportional to a localized scalar VEV
+<!-- - found flat radial profiles for large separation distance -->
+- found evidence for $R^{(3)}(0)$ is proportional to a localized massless scalar VEV
 
 <!-- ----------------------------------------- -->
 
 **Numerically we found**
 
-- Interaction energy vs seperation distance
+- *Interaction energy* vs *seperation distance*
 - Found minimum temperature for given seperation distance
 
 # Results in Detail
