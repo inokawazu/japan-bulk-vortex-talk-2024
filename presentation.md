@@ -313,7 +313,6 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 
 ## Acknowledgments
 
-
 :::::::::::::: {.columns}
 ::: {.column width="10%"}
 :::
@@ -326,12 +325,11 @@ Boundary condition at $z = z_h$ requires $C_1 = 0$ and that $R(z) = R(0)$
 ::::::::::::::
 
 :::::::::::::: {.columns}
-::: {.column width="33%"}
+::: {.column width="43%"}
 :::
-::: {.column width="34%"}
+::: {.column width="44%"}
 ![](figs/business_ojigi_man.png){height=50%}
 :::
 ::: {.column width="33%"}
 :::
 ::::::::::::::
-
