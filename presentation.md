@@ -1,5 +1,3 @@
-# Yamagata University
-
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ![Kojirakawa Campus circa 2024](figs/yamadai.jpg "Picture of a blossoming cherry tree on the campus of Yamagata University."){ height=45% .center }
