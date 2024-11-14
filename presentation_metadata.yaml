@@ -5,6 +5,10 @@ institute: Yamagata University
 theme: Boadilla
 header-includes: 
     - \AtBeginDocument{\title[Holographic Global Vortices]{Holographic Global Vortices with Novel Boundary Conditions}}
+    - \usepackage{xeCJK}
+    - \setCJKmainfont{Noto Serif CJK JP}
+    - \setCJKsansfont{Noto Sans CJK JP}
+    - \setCJKmonofont{Noto Sans Mono CJK JP}
 aspectratio: 169
 toc: true
 abstract: |

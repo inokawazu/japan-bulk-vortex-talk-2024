@@ -1,3 +1,14 @@
+# Yamagata University
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Kojirakawa Campus circa 2024](figs/yamadai.jpg "Picture of a blossoming cherry tree on the campus of Yamagata University."){ height=45% .center }
+:::
+::: {.column width="50%"}
+![Rikakuji or "Yamadera" (立石寺) circa 2021](figs/yamadera1.jpg "Picture of the landscape seen from Rishakuji."){ height=45% .center }
+:::
+::::::::::::::
+
 # Background
 
 Anti-de Sitter/Conformal Field Theory (AdS/CFT) correspondence (Maldacena 1997)
